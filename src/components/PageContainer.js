@@ -5,22 +5,23 @@ import Nav from './Nav'
 import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
+import Foot from './pages/Foot'
 
 function PageContainer() {
   const [currentPage, setCurrentPage] = useState('About')
 
   const renderPage = () => {
     if (currentPage === 'About') {
-      return <About />
+      return <About currentPage={currentPage}/>
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />
+      return <Portfolio currentPage={currentPage}/>
     }
     if (currentPage === 'Contact') {
-      return <Contact />
+      return <Contact currentPage={currentPage}/>
     }
     if (currentPage === 'Resume') {
-      return <Resume />
+      return <Resume currentPage={currentPage}/>
     }
   }
 
@@ -29,7 +30,10 @@ function PageContainer() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
+      <section>
       {renderPage()}
+      </section>
+       <Foot />
     </div>
 
   );

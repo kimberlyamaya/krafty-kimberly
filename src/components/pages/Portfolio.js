@@ -1,40 +1,65 @@
 import React from 'react'
-import Foot from './Foot'
 
 function Portfolio({currentPage}) {
-console.log(currentPage)
     return (
-        <main>
-            <section>
-                <h2>{currentPage}</h2>
-                <div className='container d-flex justify-content-center'>
-                    <div className='row'>
-                        <div className='col-5 border rounded m-2'>
-                            <a href='/' target='_blank' rel='noreferrer noopener'>
-                                {/* having trouble here */}
-                                <img src='../assets/header/portfolio-background.jpg' alt='project 1'></img>
-                            </a>
-                        </div>
-                        <div className='col-5 border rounded m-2'>
-                            <img src='...' alt='project 2'></img>
-                        </div>
-                        <div className='col-5 border rounded m-2'>
-                            <img src='...' alt='project 3'></img>
-                        </div>
-                        <div className='col-5 border rounded m-2'>
-                            <img src='...' alt='project 4'></img>
-                        </div>
-                        <div className='col-5 border rounded m-2'>
-                            <img src='...' alt='project 5'></img>
-                        </div>
-                        <div className='col-5 border rounded m-2'>
-                            <img src='...' alt='project 6'></img>
-                        </div>
+        <div className='container'>
+            <h2>{currentPage}</h2>
+            <div className='container d-flex justify-content-center'>
+                <div className='row'>
+
+                    {/* project 1 */}
+                    <div className='col-5 m-2 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/Stockable.jpg',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}>
+                        <a href='https://limichael97.github.io/Stockable/' target='_blank' rel='noreferrer noopener'>
+                            Stockable
+                        </a>
+                        <a href='https://github.com/kimberlyamaya/Stockable' target='_blank' rel='noreferrer noopener'>
+                            <i className="bi bi-github"></i>
+                        </a>
+                    </div>
+
+                    {/* project 2 */}
+                    <div className='col-5 m-2 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/iCocina.jpg',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}>
+                        <a href='https://icocina.herokuapp.com/' target='_blank' rel='noreferrer noopener'>
+                            iCocina
+                        </a>
+                        <a href='https://github.com/kimberlyamaya/iCocina' target='_blank' rel='noreferrer noopener'>
+                            <i className="bi bi-github"></i>
+                        </a>
+                    </div>
+
+                    {/* project 3 */}
+                    <div className='col-5 m-2 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/techBlog.jpg',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}>
+                        <a href='https://secure-dusk-47715.herokuapp.com/' target='_blank' rel='noreferrer noopener'>
+                            techBlog
+                        </a>
+                        <a href='https://github.com/kimberlyamaya/MVC-challenge' target='_blank' rel='noreferrer noopener'>
+                            <i className="bi bi-github"></i>
+                        </a>
+                    </div>
+
+                    {/* project 4 */}
+                    <div className='col-5 m-2 project-cards'>
+                        <a href='/' target='_blank' rel='noreferrer noopener'>
+                            <img src='./assets/header/portfolio-background-2.jpg' alt='project 4' className='rounded'></img>
+                        </a>
+                    </div>
+
+                    {/* project 5 */}
+                    <div className='col-5 m-2 project-cards'>
+                        <a href='/' target='_blank' rel='noreferrer noopener'>
+                            <img src='./assets/header/portfolio-background-2.jpg' alt='project 5' className='rounded'></img>
+                        </a>
+                    </div>
+
+                    {/* project 6 */}
+                    <div className='col-5 m-2 project-cards'>
+                        <a href='/' target='_blank' rel='noreferrer noopener'>
+                            <img src='./assets/header/portfolio-background-2.jpg' alt='project 6' className='rounded'></img>
+                        </a>
                     </div>
                 </div>
-            </section>
-            <Foot/>
-        </main>
+            </div>
+        </div>
     )
 }
 

@@ -3,7 +3,8 @@ import React from 'react'
 function Nav({currentPage, handlePageChange}) {
     return (
         <header>
-            <div className = 'hero'>
+            <div className = 'hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-2.jpg)', 
+            backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '200px'}}>
                 <h2>
                     <a href='/'>
                         Kimberly
