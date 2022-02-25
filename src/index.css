@@ -23,21 +23,21 @@ header {
   justify-content: space-between;
 }
 
-ul {
+.nav-list {
   display: flex;
   align-items: center;
   list-style: none;
   color: white;
 }
 
-li {
+.nav-item {
   display: inline-flex;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: white;
-}
+} */
 
 .bio-img {
   border-radius: 50%;
