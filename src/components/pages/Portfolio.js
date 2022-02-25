@@ -5,7 +5,7 @@ function Portfolio({currentPage}) {
 console.log(currentPage)
     return (
         <main>
-            <section >
+            <section>
                 <h2>{currentPage}</h2>
                 <div className='container d-flex justify-content-center'>
                     <div className='row'>
