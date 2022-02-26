@@ -28,7 +28,7 @@ function PageContainer() {
   const handlePageChange = (page) => setCurrentPage(page)
 
   return (
-    <div>
+    <div id='page-container'>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       <section>
       {renderPage()}

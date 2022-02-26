@@ -3,7 +3,8 @@ import React from 'react'
 function Foot() {
     return (
         <footer>
-            <div className='d-flex justify-content-center px-2'>
+            {/* <div className='d-flex justify-content-center align-items-end px-2'> */}
+            <div>
                 <a href='https://github.com/kimberlyamaya' target='_blank' rel='noreferrer noopener'>
                     <i className="bi bi-github"></i>
                 </a>
