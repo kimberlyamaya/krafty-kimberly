@@ -6,7 +6,7 @@ function Nav({currentPage, handlePageChange}) {
             <div className = 'hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-2.jpg)', 
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '200px'}}>
                 <h2>
-                    <a href='/'>
+                    <a href='/' className='header-link'>
                         Kimberly
                     </a>
                 </h2>
