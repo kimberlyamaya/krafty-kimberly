@@ -5,7 +5,7 @@ function Resume({currentPage}) {
         <div className='container'>
             <h2>{currentPage}</h2>
             <div className='container'>
-                <p>Download my <span><a href='/' alt='resume download'>Resume</a></span></p>
+                <p>Download my <span><a href='./assets/resume/resume.pdf' alt='resume download' target='_blank' rel='noreferrer noopener' download='resume'>Resume</a></span></p>
                 <h4>Front-end Proficiencies</h4>
                 <ul>
                     <li>HTML</li>
