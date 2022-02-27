@@ -3,7 +3,7 @@ import React from 'react'
 function Nav({currentPage, handlePageChange}) {
     return (
         <header>
-            <div className = 'hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-2.jpg)', 
+            <div className = 'hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-1.jpg)', 
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '200px'}}>
                 <h2>
                     <a href='/' className='header-link'>
@@ -15,7 +15,7 @@ function Nav({currentPage, handlePageChange}) {
                         <li className='nav-item'>
                             <a href='#about'
                             onClick={() => handlePageChange('About')}
-                            className={currentPage === 'About' ? 'nav-link active bg-white rounded' : 'nav-link'}
+                            className={currentPage === 'About' ? 'nav-link-active active rounded' : 'nav-link-na'}
                             >
                                 About Me
                             </a>
@@ -23,7 +23,7 @@ function Nav({currentPage, handlePageChange}) {
                         <li className='nav-item'>
                             <a href='#portfolio'
                             onClick={() => handlePageChange('Portfolio')}
-                            className={currentPage === 'Portfolio' ? 'nav-link active bg-white rounded' : 'nav-link'}
+                            className={currentPage === 'Portfolio' ? 'nav-link-active active rounded' : 'nav-link-na'}
                             >
                                 Portfolio
                             </a>
@@ -31,7 +31,7 @@ function Nav({currentPage, handlePageChange}) {
                         <li className='nav-item'>
                             <a href='#contact'
                             onClick={() => handlePageChange('Contact')}
-                            className={currentPage === 'Contact' ? 'nav-link active bg-white rounded' : 'nav-link'}
+                            className={currentPage === 'Contact' ? 'nav-link-active active rounded' : 'nav-link-na'}
                             >
                                 Contact
                             </a>
@@ -39,7 +39,7 @@ function Nav({currentPage, handlePageChange}) {
                         <li className='nav-item'>
                             <a href='#Resume'
                             onClick={() => handlePageChange('Resume')}
-                            className={currentPage === 'Resume' ? 'nav-link active bg-white rounded' : 'nav-link'}
+                            className={currentPage === 'Resume' ? 'nav-link-active active rounded' : 'nav-link-na'}
                             >
                                 Resume
                             </a>

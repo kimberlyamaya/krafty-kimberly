@@ -30,7 +30,7 @@ function PageContainer() {
   return (
     <div id='page-container'>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
-      <section>
+      <section className='page-section'>
       {renderPage()}
       </section>
        <Foot />

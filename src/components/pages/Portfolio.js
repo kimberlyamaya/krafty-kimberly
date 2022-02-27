@@ -1,20 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 function Portfolio({currentPage}) {
+    const [showText, setShowText] = useState(false)
+
     return (
         <div className='container'>
             <h2>{currentPage}</h2>
-            <div className='container d-flex justify-content-center'>
+            <div className='d-flex justify-content-center'>
                 <div className='row'>
 
                     {/* project 1 */}
-                    <div className='col-5 m-2 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/Stockable.jpg',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}>
+                    <div 
+                        onMouseEnter={() => setShowText(true)}
+                        onMouseLeave={() => setShowText(false)}
+                        className='col-5 m-2 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/Stockable.jpg',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
+                    >
+                            
+                        {showText && (
+                        <div>
                         <a href='https://limichael97.github.io/Stockable/' target='_blank' rel='noreferrer noopener'>
                             Stockable
                         </a>
                         <a href='https://github.com/kimberlyamaya/Stockable' target='_blank' rel='noreferrer noopener'>
                             <i className="bi bi-github"></i>
                         </a>
+                        </div>
+                        )}
+
                     </div>
 
                     {/* project 2 */}
