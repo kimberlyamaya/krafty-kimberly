@@ -6,7 +6,7 @@ function Nav({currentPage, handlePageChange}) {
             <div className = 'd-flex hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-1.jpg)', 
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '200px'}}>
                 <h2>
-                    <a href='/' className='header-link'>
+                    <a href='https://kimberlyamaya.github.io/krafty-kimberly' className='header-link'>
                         Kimberly
                     </a>
                 </h2>
