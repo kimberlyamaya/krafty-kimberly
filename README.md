@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Portfolio - Krafty Kimberly
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+  This is my professional portfolio complete with a short bio, portfolio page with recent deployed applications, a contact page and resume page with a link to download my resume. This app was built using react.   
 
-## Available Scripts
+  ## Table of Contents
+  [Installation](#Installation)  
+  [Usage](#Usage)  
+  [Contributing](#Contributing)   
+  [Testing](#Testing)  
+  [Questions](#Questions)  
+  [License](#License) 
+  
+  ## Installation
+  1. See Contributing for forking the repo
+  2. Once these files are local on your machine
+  3. Run 'npm install' in the terminal to create the necessary dependencies
+  
+  ## Usage
+  ### on local machine
+  1. Run 'npm start' to run the application
+  2. The browser will automactically open to http://localhost:3000/krafty-kimberly
+  3. View each page in the nav bar by clicking on each option
+  4. About Me contains a profile picture and short bio
+  5. Portfolio contains 6 recent applications I've written and/or contributed to. As you hover over each image you'll see the links to the deployed application as well as the corresponding github page 
+  6. Contact contains a form which you write your name, email address and a message to send to me 
+  7. Resume contains a link to download my resume and a list of my front-end and back-end proficiencies
+  8. Once satisfied return to bash and disconnect by typing ctrl + c on your keyboard
 
-In the project directory, you can run:
+  ### on deployed application
+  1. Follow this link to the application: https://kimberlyamaya.github.io/krafty-kimberly/
+  2. View each page in the nav bar by clicking on each option
+  3. About Me contains a profile picture and short bio
+  4. Portfolio contains 6 recent applications I've written and/or contributed to. As you hover over each image you'll see the links to the deployed application as well as the corresponding github page 
+  5. Contact contains a form which you write your name, email address and a message to send to me 
+  6. Resume contains a link to download my resume and a list of my front-end and back-end proficiencies
 
-### `npm start`
+  ## Contributing  
+  
+  ### Add to Project  
+  To work on or add to this project follow these steps  
+  1. Fork the repository  
+  2. Add you changes  
+  3. Submit a pull request for approval  
+  
+  ### Issues
+  To add issues in GitHub follow these steps
+  1. Click on the issues tab
+  2. Click 'New issue' button
+  3. Give the issue a title and comments
+  4. Click 'Submit new issue' button
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  [Click here to view current GitHub Issues](https://github.com/kimberlyamaya/krafty-kimberly/issues)   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ## Testing
 
-### `npm test`
+  1. Check logic on contact form
+  2. When you click on the name field, don't enter any values and then click off, you'll get a message 'name is required'
+  3. When you click on the email field, enter a name for example then click off, you'll get a message 'Your email is invalid'
+  4. When you click on the message field, don't enter any values and then click off, you'll get a message 'message is required'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Questions
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ### Contact
+  For any questions please contact Kimberly Amaya 
+  
+  Email: [Link to Email](mailto:kimberly_kimbell@yahoo.com)  
+  GitHub: [Link to GitHub Account](https://github.com/kimberlyamaya)  
+  
+  ## License
+  This project contains a license from MIT 
+  [Click here to see the license](license.md)
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://mit-license.org/) 

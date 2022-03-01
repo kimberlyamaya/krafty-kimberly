@@ -142,7 +142,7 @@ a:hover {
 }
 
 .project-card-links-dark:hover {
-  background-color: white;
+  background-color: #FFEFD5;
   border-radius: 15px;
   color:#6C464F !important;
 }
@@ -172,9 +172,9 @@ a:hover {
 }
 
 .project-card-github-dark:hover {
-  background-color: white;
+  background-color: #FFEFD5;
   border-radius: 15px;
-  color:#4682B4 !important;
+  color:#6C464F !important;
 }
 
 .project-card-github-light:hover {

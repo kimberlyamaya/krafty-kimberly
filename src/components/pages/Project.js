@@ -43,11 +43,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP2 && (
                         <div>
-                        <a href='https://icocina.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
+                        <a href='https://icocina.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             iCocina
                         </a>
                         <a href='https://github.com/kimberlyamaya/iCocina' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github-dark'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -63,11 +63,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP3 && (
                         <div>
-                        <a href='https://secure-dusk-47715.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
+                        <a href='https://secure-dusk-47715.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             Tech Blog
                         </a>
                         <a href='https://github.com/kimberlyamaya/MVC-challenge' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github-dark'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -83,11 +83,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP4 && (
                         <div>
-                        <a href='https://express-note-taker-99.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
+                        <a href='https://express-note-taker-99.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             Express Note Taker
                         </a>
                         <a href='https://github.com/kimberlyamaya/express-note-taker' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github-dark'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
