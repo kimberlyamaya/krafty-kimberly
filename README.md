@@ -22,18 +22,23 @@
   2. The browser will automactically open to http://localhost:3000/krafty-kimberly
   3. View each page in the nav bar by clicking on each option
   4. About Me contains a profile picture and short bio
+  ![about_me_page](./public/assets/readme/aboutme.JPG)  
+
   5. Portfolio contains 6 recent applications I've written and/or contributed to. As you hover over each image you'll see the links to the deployed application as well as the corresponding github page 
+  ![portfolio_page](./public/assets/readme/portfolio.JPG)  
+
   6. Contact contains a form which you write your name, email address and a message to send to me 
+  ![contact_page](./public/assets/readme/contact.JPG)  
+
   7. Resume contains a link to download my resume and a list of my front-end and back-end proficiencies
-  8. Once satisfied return to bash and disconnect by typing ctrl + c on your keyboard
+  ![resume_page](./public/assets/readme/resume.JPG)  
+  
+  8. At the bottom of each page you'll find links to my Github, Linkedin and Twitter accounts
+  9. Once satisfied return to bash and disconnect by typing ctrl + c on your keyboard
 
   ### on deployed application
   1. Follow this link to the application: https://kimberlyamaya.github.io/krafty-kimberly/
-  2. View each page in the nav bar by clicking on each option
-  3. About Me contains a profile picture and short bio
-  4. Portfolio contains 6 recent applications I've written and/or contributed to. As you hover over each image you'll see the links to the deployed application as well as the corresponding github page 
-  5. Contact contains a form which you write your name, email address and a message to send to me 
-  6. Resume contains a link to download my resume and a list of my front-end and back-end proficiencies
+  2. Follow steps 3 thru 8 above 'on local machine'
 
   ## Contributing  
   
