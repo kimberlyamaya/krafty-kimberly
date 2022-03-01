@@ -23,11 +23,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP1 && (
                         <div>
-                        <a href='https://limichael97.github.io/Stockable/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://limichael97.github.io/Stockable/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             Stockable
                         </a>
                         <a href='https://github.com/kimberlyamaya/Stockable' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -43,11 +43,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP2 && (
                         <div>
-                        <a href='https://icocina.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://icocina.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
                             iCocina
                         </a>
                         <a href='https://github.com/kimberlyamaya/iCocina' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-dark'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -63,11 +63,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP3 && (
                         <div>
-                        <a href='https://secure-dusk-47715.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://secure-dusk-47715.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
                             Tech Blog
                         </a>
                         <a href='https://github.com/kimberlyamaya/MVC-challenge' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-dark'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -83,11 +83,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP4 && (
                         <div>
-                        <a href='https://express-note-taker-99.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://express-note-taker-99.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-dark'>
                             Express Note Taker
                         </a>
                         <a href='https://github.com/kimberlyamaya/express-note-taker' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-dark'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -104,11 +104,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP5 && (
                         <div>
-                        <a href='https://kimberlyamaya.github.io/work-day-scheduler/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://kimberlyamaya.github.io/work-day-scheduler/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             Work Day Scheduler
                         </a>
                         <a href='https://github.com/kimberlyamaya/work-day-scheduler' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
@@ -124,11 +124,11 @@ function Portfolio({currentPage}) {
                             
                         {showTextP6 && (
                         <div>
-                        <a href='https://kimberlyamaya.github.io/Password-Generator/' target='_blank' rel='noreferrer noopener' className='project-card-links'>
+                        <a href='https://kimberlyamaya.github.io/Password-Generator/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
                             Password Generator
                         </a>
                         <a href='https://github.com/kimberlyamaya/Password-Generator' target='_blank' rel='noreferrer noopener'
-                        className='project-card-github'>
+                        className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
                         </div>
