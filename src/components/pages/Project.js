@@ -78,7 +78,7 @@ function Portfolio({currentPage}) {
                     <div 
                         onMouseEnter={() => setShowTextP4(true)}
                         onMouseLeave={() => setShowTextP4(false)}
-                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/expressNoteTaker.jpg)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
+                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/expressNoteTaker.JPG)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
                     >
                             
                         {showTextP4 && (
@@ -99,7 +99,7 @@ function Portfolio({currentPage}) {
                     <div 
                         onMouseEnter={() => setShowTextP5(true)}
                         onMouseLeave={() => setShowTextP5(false)}
-                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/workDayScheduler.jpg)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
+                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/workDayScheduler.JPG)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
                     >
                             
                         {showTextP5 && (
@@ -119,7 +119,7 @@ function Portfolio({currentPage}) {
                     <div 
                         onMouseEnter={() => setShowTextP6(true)}
                         onMouseLeave={() => setShowTextP6(false)}
-                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/passwordGenerator.jpg)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
+                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/passwordGenerator.JPG)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
                     >
                             
                         {showTextP6 && (
