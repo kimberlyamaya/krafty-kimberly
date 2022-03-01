@@ -1,9 +1,12 @@
 body {
   background-color: #FFEFD5;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 0px;
+  padding: 0px;
+  overflow: auto !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'Montserrat' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,15 +23,31 @@ body {
   background-color: #FFEFD5;
 }
 
+.hero {
+  border-bottom: 2px solid #6C464F;
+}
+
+.hero h2 {
+  padding: 30px;
+}
+
 .header-link {
-  padding: 10px 20px;
   text-decoration: none;
-  color: #6C464F;
+  color: #FFEFD5;
   font: bolder;
+  font-size: 50px;
+}
+
+.header-link:hover {
+  color: #6C464F !important;
 }
 
 .container {
-  padding-bottom: 2.5rem;  
+  margin-top: 20px;  
+}
+
+.padding {
+  padding-bottom: 50px !important;
 }
 
 code {
@@ -41,12 +60,9 @@ html {
   box-sizing: border-box;
 }
 
-/* .nav-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  color: white;
-} */
+.nav-list {
+  padding: 20px;
+} 
 
 nav {
   padding: 30px;
@@ -58,11 +74,19 @@ nav {
   padding: 5px 10px;
 }
 
+.nav-link-na:hover {
+  color: white !important;
+}
+
 .nav-link-active {
   text-decoration: none;
-  color: white;
+  color: #FFEFD5;
   background-color: #808080;
   padding: 5px 10px;
+}
+
+.nav-link-active:hover {
+  color: white !important;
 }
 
 .nav-item {
@@ -71,6 +95,10 @@ nav {
 
 .page-section {
   color: #6C464F;
+}
+
+.bio p {
+  padding: 20px;
 }
 
 .bio-img {
@@ -82,16 +110,65 @@ nav {
   display: flex;
 }
 
+a:hover {
+  color: #4682B4 !important;
+} 
+
+.project-cards {
+  margin: 20px !important;
+}
+
 .project-cards:hover{
-  opacity: 0.7;
+  opacity: 0.5;
+  border-left: 10px solid #808080;
+  background-color: cornflowerblue !important;
+}
+
+.project-card-links {
+  color:#6C464F;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project-card-links:hover {
+  color:#4682B4 !important;
+}
+
+.project-card-github {
+  color:#808080;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project-card-github:hover {
+  color:#4682B4 !important;
+}
+
+.project-card-links:hover {
+  color:black !important;
+}
+
+.background-color {
+  background-color: #FFEFD5;
+}
+
+.submit-btn {
+  color: #6C464F;
+}
+
+.submit-btn:hover {
+  color: #4682B4;
 }
 
 footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0.5px;
   text-align: center;
   width: 100%;
-  height: 2.5rem;  
+  height: 2.5rem;
+  border-top: 2px solid #6C464F;
 }
 
 .footer-link {

@@ -3,7 +3,7 @@ import React from 'react'
 function Nav({currentPage, handlePageChange}) {
     return (
         <header>
-            <div className = 'hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-1.jpg)', 
+            <div className = 'd-flex hero' style={{backgroundImage: 'url(./assets/header/portfolio-background-1.jpg)', 
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center', height: '200px'}}>
                 <h2>
                     <a href='/' className='header-link'>

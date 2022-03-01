@@ -3,7 +3,7 @@ import React from 'react'
 function Foot() {
     return (
         <footer>
-            <div>
+            <div className='background-color'>
                 <a href='https://github.com/kimberlyamaya' target='_blank' rel='noreferrer noopener' className='footer-link'>
                     <i className="bi bi-github"></i>
                 </a>

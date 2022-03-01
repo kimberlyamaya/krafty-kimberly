@@ -50,17 +50,23 @@ function Contact({currentPage}) {
             <form className='d-flex flex-column' id="contact-form" onSubmit={handleSubmit}>
                 <h2>{currentPage}</h2>
 
+                <div className='d-flex flex-column'>
                 <label htmlFor='name'>Name:</label>
                 <input type='text' id='name' name='name' defaultValue={name} onBlur={handleChange}></input>
+                </div>
 
                 {/* logic: show message if email is invalid */}
+                <div className='d-flex flex-column'>
                 <label htmlFor='email'>Email Address:</label>
                 {/* <input type='email' id='email' name='email' onBlur={checkEmail}></input> */}
                 <input type='email' id ='email' name='email' defaultValue={email} onBlur={handleChange}></input>
+                </div>
 
                 {/* logic:  show message if message is empty*/}
+                <div className='d-flex flex-column padding'>
                 <label htmlFor='message'>Message:</label>
                 <textarea id='message' name='message' rows='5' defaultValue={message} onBlur={handleChange}></textarea>
+                </div>
 
                 {errorMessage && (
                     <div>
@@ -68,7 +74,7 @@ function Contact({currentPage}) {
                     </div>
                 )}
 
-                <button type='submit'>Submit</button>
+                <button type='submit' className='submit-btn'>Submit</button>
             </form>
         </div>
     )

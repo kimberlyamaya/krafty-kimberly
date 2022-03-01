@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './index.css'
 import './App.css';
+import '@fontsource/montserrat';
 
 const App = () => <PageContainer />
 
