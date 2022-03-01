@@ -127,18 +127,44 @@ a:hover {
   /* background-color: cornflowerblue !important; */
 }
 
-.project-card-links {
+.project-card-links-dark {
   color:#6C464F;
   padding: 0 10px;
   text-decoration: none;
   font-size: 25px;
 }
 
+.project-card-links-light {
+  color:#6C464F;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project-card-links-dark:hover {
+  background-color: white;
+  border-radius: 15px;
+  color:#6C464F !important;
+}
+
+.project-card-links-light:hover {
+  background-color: #6C464F;
+  border-radius: 15px;
+  color:#FFEFD5 !important;
+}
+
 .project-card-links:hover {
   color:#4682B4 !important;
 }
 
-.project-card-github {
+.project-card-github-dark {
+  color:#808080;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project-card-github-light {
   color:#808080;
   padding: 0 10px;
   text-decoration: none;
@@ -154,19 +180,7 @@ a:hover {
 .project-card-github-light:hover {
   background-color: #6C464F;
   border-radius: 15px;
-  color:#4682B4 !important;
-}
-
-.project-card-links-dark:hover {
-  background-color: white;
-  border-radius: 15px;
-  color:black !important;
-}
-
-.project-card-links-light:hover {
-  background-color: #6C464F;
-  border-radius: 15px;
-  color:black !important;
+  color: #FFEFD5 !important;
 }
 
 .background-color {
