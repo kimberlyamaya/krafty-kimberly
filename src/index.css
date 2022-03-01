@@ -18,6 +18,8 @@ body {
 } */
 
 #page-container {
+  display: flex;
+  flex-direction: column;
   position: relative;
   min-height: 100vh;
   background-color: #FFEFD5;
@@ -95,6 +97,7 @@ nav {
 
 .page-section {
   color: #6C464F;
+  flex-grow: 1;
 }
 
 .bio p {
@@ -112,7 +115,7 @@ nav {
 
 a:hover {
   color: #4682B4 !important;
-} 
+}
 
 .project-cards {
   margin: 20px !important;
@@ -143,10 +146,12 @@ a:hover {
 }
 
 .project-card-github:hover {
+  background-color: white;
   color:#4682B4 !important;
 }
 
 .project-card-links:hover {
+  background-color: white;
   color:black !important;
 }
 
@@ -163,7 +168,6 @@ a:hover {
 }
 
 footer {
-  position: absolute;
   bottom: 0.5px;
   text-align: center;
   width: 100%;
