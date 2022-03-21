@@ -47,6 +47,11 @@
   1. Fork the repository  
   2. Add you changes  
   3. Submit a pull request for approval  
+
+  ### Push changes to production site:
+  1. First git add, commit and push changes
+  2. Run 'npm run build'
+  3. Run 'npm run deploy'
   
   ### Issues
   To add issues in GitHub follow these steps
