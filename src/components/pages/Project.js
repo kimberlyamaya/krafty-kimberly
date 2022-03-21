@@ -78,15 +78,15 @@ function Portfolio({currentPage}) {
                     <div 
                         onMouseEnter={() => setShowTextP4(true)}
                         onMouseLeave={() => setShowTextP4(false)}
-                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/expressNoteTaker.JPG)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
+                        className='col-5 rounded project-cards' style={{backgroundImage: 'url(./assets/portfolio/meme-oh-gram.JPG)',backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'top', height: '200px'}}
                     >
                             
                         {showTextP4 && (
                         <div>
-                        <a href='https://express-note-taker-99.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
-                            Express Note Taker
+                        <a href='https://meme-oh-gram.herokuapp.com/' target='_blank' rel='noreferrer noopener' className='project-card-links-light'>
+                            meme-OH-grram
                         </a>
-                        <a href='https://github.com/kimberlyamaya/express-note-taker' target='_blank' rel='noreferrer noopener'
+                        <a href='https://github.com/kimberlyamaya/krafty-kimberly' target='_blank' rel='noreferrer noopener'
                         className='project-card-github-light'>
                             <i className="bi bi-github"></i>
                         </a>
